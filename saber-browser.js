@@ -1,12 +1,12 @@
-import '@/css/global.css'
-import 'saber-highlight-css/default.css'
-import 'prismjs/themes/prism-tomorrow.css'
-
 export default ({ setHead }) => {
   setHead({
     link: [
       {
-        href: 'https://fonts.googleapis.com/css?family=Roboto',
+        href: '/app.css',
+        rel: 'stylesheet',
+      },
+      {
+        href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap',
         rel: 'stylesheet',
       },
     ],
