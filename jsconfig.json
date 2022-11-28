@@ -5,5 +5,5 @@
       "@/*": ["./*"]
     }
   },
-  "exclude": ["node_modules", ".saber", "public", ".layer0", ".github"]
+  "exclude": ["node_modules", ".saber", "public", ".edgio", ".github"]
 }

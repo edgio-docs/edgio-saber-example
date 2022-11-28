@@ -1,7 +1,7 @@
 const { join } = require('path')
 const fetch = (...args) => import(`node-fetch`).then(({ default: fetch }) => fetch(...args))
 
-const apiUrl = 'https://layer0-docs-layer0-ecommmerce-api-example-default.layer0-limelight.link'
+const apiUrl = 'https://edgio-docs-edgio-ecommmerce-api-example-default.edgio-limelight.link'
 
 exports.initPages = async function () {
   let resp = await fetch(`${apiUrl}/categories/all`)
