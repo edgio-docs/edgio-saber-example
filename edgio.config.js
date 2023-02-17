@@ -5,8 +5,8 @@ module.exports = {
     // Define a domain or IP address to proxy as a backend
     // More on: https://docs.edgio.co/guides/edgio_config#backends
     api: {
-      domainOrIp: 'edgio-docs-edgio-ecommmerce-api-example-default.edgio-limelight.link',
-      hostHeader: 'edgio-docs-edgio-ecommmerce-api-example-default.edgio-limelight.link',
+      domainOrIp: 'edgio-community-ecommerce-api-example-default.layer0-limelight.link',
+      hostHeader: 'edgio-community-ecommerce-api-example-default.layer0-limelight.link',
       // Disable backend SSL certificate security check, read more on:
       // https://docs.edgio.co/guides/edgio_config#:~:text=browser%20is%20used.-,disableCheckCert,-Boolean
       disableCheckCert: true,

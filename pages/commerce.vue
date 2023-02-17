@@ -36,7 +36,7 @@
 
 <script>
 import Page from '@/layouts/page.vue'
-import Prefetch from '@layer0/vue/Prefetch'
+import Prefetch from '@edgio/vue/Prefetch'
 import Sidebar from '@/components/Sidebar.vue'
 import { filterProducts, relativizeURL } from '@/lib/helper'
 

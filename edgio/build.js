@@ -17,8 +17,8 @@ module.exports = async function build(options) {
       bundle: true,
       define: {
         'process.env.NODE_ENV': '"production"',
-        'process.env.LAYER0_PREFETCH_HEADER_VALUE': '"1"',
-        'process.env.LAYER0_PREFETCH_CACHE_NAME': '"prefetch"',
+        'process.env.EDGIO_PREFETCH_HEADER_VALUE': '"1"',
+        'process.env.EDGIO_PREFETCH_CACHE_NAME': '"prefetch"',
       },
     })
     command = 'npx tailwindcss -m -i ./css/global.css -o public/app.css'

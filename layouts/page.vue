@@ -21,9 +21,9 @@
 </template>
 
 <script>
-import Layer0RUM from '@/layer0/rum'
-import { install } from '@layer0/prefetch/window'
-import installDevtools from '@layer0/devtools/install'
+import Layer0RUM from '@/edgio/rum'
+import { install } from '@edgio/prefetch/window'
+import installDevtools from '@edgio/devtools/install'
 
 export default {
   name: 'Layout',
